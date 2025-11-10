@@ -48,7 +48,8 @@ namespace SmartHomeController
         }
 
         // paramatarised constructor
-        public User(int userId, string userName, string password, string contactInfo)
+        public User(int userId, string userName, 
+                    string password, string contactInfo)
         {
             UserId = userId;
             UserName = userName;
@@ -93,7 +94,8 @@ namespace SmartHomeController
 
             }
         
-            public void ControlDevice(int deviceId, string deviceName, string deviceAction)
+            public void ControlDevice(int deviceId, string deviceName, 
+                                      string deviceAction)
             {
                 if (IsLoggedIn)
                 {
